@@ -31,4 +31,5 @@ function doWhileLoop(number){
     console.log("I run once regardless.")
   }
   while(incrementVariable(number) < num);
+  return number;
 }
